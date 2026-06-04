@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 <section>
-                    <div class="row g-3 mt-4">
+                    <div class="row g-3 mt-4 mb-5">
                         <div class="col-6 col-md-3">
                             <div class="card h-100 shadow">
                                 <div class="card-body d-flex justify-content-evenly align-items-center">
@@ -97,9 +97,75 @@
                     </div>
                 </section>
                 <section>
-                    <div class="row mt-3">
-                        <div class="col">
-
+                    <div class="row mt-4">
+                        <div class="col-12 col-lg-8">
+                            <div class="card">
+                                <div class="card-header fw-bold">
+                                    Tabla de Pedidos
+                                </div>
+                                    <div class="table-responsive">
+                                        <table class="table table-success table-striped">
+                                            <thead class="table-light">
+                                                <tr>
+                                                    <th scope="col">Pedido</th>
+                                                    <th scope="col">Cliente</th>
+                                                    <th scope="col">Fecha</th>
+                                                    <th scope="col">Estado</th>
+                                                    <th scope="col">Total</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>Mark</td>
+                                                    <td>12/1</td>
+                                                    <td><span class="badge bg-success rounded-pill">Entregado</span></td>
+                                                    <td>12500</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>Jacob</td>
+                                                    <td>13/1</td>
+                                                    <td><span class="badge bg-warning rounded-pill">Pendiente</span></td>
+                                                    <td>12500</td>
+                                                </tr>
+                                                <tr class="border-bottom-0 border-white">
+                                                    <th scope="row">3</th>
+                                                    <td>John</td>
+                                                    <td>14/1</td>
+                                                    <td><span class="badge bg-danger rounded-pill">Cancelado</span></td>
+                                                    <td>12500</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="card p-3 sticky-lg-top">
+                                <p class="fw-bold h5">Resumen</p>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item d-flex justify-content-between px-0">
+                                        <span>Ventas Totales</span>
+                                        <span>$24500</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between px-0">
+                                        <span>Ventas Totales</span>
+                                        <span>$24500</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between px-0">
+                                        <span>Ventas Totales</span>
+                                        <span>$24500</span>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between px-0">
+                                        <span>Ventas Totales</span>
+                                        <span>$24500</span>
+                                    </li>
+                                </ul>
+                                <div class="mt-3 d-grid">
+                                    <button type="button" class="btn btn-dark">Generar Informe</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
